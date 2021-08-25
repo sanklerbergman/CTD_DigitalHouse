@@ -1,0 +1,31 @@
+html{
+    
+}
+
+body{
+    color: white;
+
+    background-color: black;
+    background-image: url(https://kenzie.com.br/blog/wp-content/uploads/2021/03/kenzie_blog_linguagem_de_programacao-820x431.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+header h1{
+    font-size: 300%;
+}
+
+.job-title{
+    font-size: 170%;
+}
+
+footer ul{
+    line-height: 40px;
+}
+
+a{
+    color: inherit;
+    text-decoration: underline;
+}

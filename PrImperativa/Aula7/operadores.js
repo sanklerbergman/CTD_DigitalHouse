@@ -46,8 +46,8 @@ OPERADORES RELACIONAIS - operadores de comparação simples como maior igual e m
 /* ==========================
 LÓGICOS
 ========================== */
-(15) && (10) // AND, todos valores dentro da declaração precisam ser verdadeiros
-(10) || (20) // OR, pelo menos uma das declarações precisam ser verdadeiras
-(10) ! (10) // NOT, nega a condição inteira
+(15) && (10); // AND, todos valores dentro da declaração precisam ser verdadeiros
+(10),(15) || (20),(15) // OR, pelo menos uma das declarações precisam ser verdadeiras
+// (10) ! (10); // NOTls, nega a condição inteira
 
 // Permitem combinar valores booleanos e seu resultado ao mesmo tempo, também é um booleano
