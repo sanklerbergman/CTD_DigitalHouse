@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: black;
+}
+
+h1, h2, p{
+
+    
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1, p {
+    color: white
+}
+
+h2{
+    color: rgb(85, 85, 255);
+}
+
+a{
+    color: yellow;
+}
+
+
+.media-picture{
+
+    height: 50vh;
+    background-image:url(https://exame.com/wp-content/uploads/2018/04/vingadores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.review-score {
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+    padding: 10px;
+    background-color: yellow;
+}
