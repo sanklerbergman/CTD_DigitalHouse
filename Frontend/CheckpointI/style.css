@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://imagens.ebc.com.br/2uTqmwcgb5eiqZlqs9tbgiqOQOQ=/754x0/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/26085579717_c7f875ace8_o.jpg?itok=taH0dcXG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
