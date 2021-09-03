@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(http://1.bp.blogspot.com/-hPTt-K4vL1s/VhswvXNtugI/AAAAAAAAAXo/TluQCvDJyjA/s1600/tumblr_static_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+    width: 100%;
+
+    text-align: center;
+    background-color: rgb(76, 28, 121);
+    position: fixed;
+}
+
+.menu-main{
+    padding: 30px;
+
+
+}
+
+.menu-main h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-main a {
+    padding: 0 10px;
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main{
+    padding: 100px 0 0 20px;
+    color: white;
+
+}
+
+.produto-avenda1 h1{
+    padding: 10px;
+
+}
+
+.produto-avenda1 p{
+    padding: 10px;
+
+}
+
+
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #000000;
+    cursor: pointer;
+    background-color:rgb(76, 28, 121);
+}
+
+
+
+
+
+
+
+
+.final-da-pagina{
+    height: 50px;
+}
+
+.final-da-pagina a{
+    position:fixed;
+    bottom:20px;
+    right:30px; 
+}
