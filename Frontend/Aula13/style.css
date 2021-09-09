@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+
+    margin-left: 45%;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(90, 94, 97);
+
+}
+
+
+form{
+
+    margin-top: 50%;
+    background-color: aliceblue;
+
+}
+
+img{
+
+    width: 250px;
+    background-color: aliceblue;
+    padding-bottom: 10px;
+
+}
+
+.areadenickname{
+    padding-bottom: 10px;
+}
+
+.areadeclasse{
+    padding-bottom: 10px;
+}
+
+
+.areadecomentarios textarea{
+
+    resize: none;
+
+}
+
+button{
+
+    margin: 10px 0 10px 0;
+    padding: 15px;
+
+}
