@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(142, 146, 149);
+}
+
+form {
+    background-color: white;
+}
+
+form img {
+    width: 200px;
+    /* padding: 25px; */
+}
+
+.vendadobrigadeiro p{
+    padding: 10px;
+}
+
+
+.vendadebeijinho p{
+    padding: 10px;
+}
+
+.vendadebeijinho img {
+    padding: 25px;
+}
+
+.pedidoforamenu p{
+    padding: 10px;
+}
+
+.pedidoforamenu textarea {
+
+    resize: none;
+}
+
+.botaodepedido {
+    padding: 20px;
+    background-color: white;
+}
+
+.botaodepedido button {
+    padding: 10px;
+    border-radius: 6px;
+    border-style: solid;
+
+    transition: 0.3s;
+}
+
+.botaodepedido button:hover {
+    background-color: rgb(71, 140, 230);
+    color: white;
+  }
