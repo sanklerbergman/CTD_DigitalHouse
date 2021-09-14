@@ -87,3 +87,14 @@ console.log(clienteNumberOne)
 // }
 
 // console.log (clienteNovo)
+
+
+let accountMaster = [
+    //aqui receberia todas as contas dos usuarios
+    {
+
+        contas: 5486273622,        
+        NomeDoTitular: "rafael henrique"
+    
+    }
+]
