@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form para Cadastro</title>
+    <link rel="stylesheet" href="style/style-cadastro.css">
+</head>
+
+<body>
+
+    <form action="">
+
+        <div class="ident-basica">
+
+            <label for="">Nome</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="email">
+            <label for="">Telefone</label>
+            <input type="tel">
+            <label for="">Data de nascimento</label>
+            <input type="date">
+
+        </div>
+
+        <div>
+            <label for="">É maior de idade?</label>
+            <select id="idade">
+                <option value="nao">Não</option>
+                <option value="sim">Sim</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Marque seus pontos de interesse na cidade</label>
+            <input type="checkbox" name="peixe" value="">
+            <label for="peixe">Rota do Peixe</label>
+        </div>
+
+
+        <div>
+            <input type="checkbox" name="estudante" value="">
+            <label for="estudante">ESTUDANTE</label>
+            <input type="checkbox" name="turista" value="" checked>
+            <label for="turista">TURISTA</label>
+            <input type="checkbox" name="residente" value="">
+            <label for="residente">RESIDENTE</label>
+
+        </div>
+
+
+        <button name="reset" class="botao-reset">Resetar</button>
+        <button name="send" class="botao-send">Enviar</button>
+    </form>
+
+</body>
+
+</html>

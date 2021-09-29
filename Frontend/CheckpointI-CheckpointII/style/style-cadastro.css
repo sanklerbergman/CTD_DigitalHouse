@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body{
+    background-color: gray;
+    
+}
+
+form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 100px auto 100px;
+
+}
+
+.ident-basica{
+    
+}
+
+.botao-reset{
+    width: 50%;
+    align-items: center;
+}
+
+.botao-send{
+    width: 50%;
+}
