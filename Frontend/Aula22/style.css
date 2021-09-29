@@ -1,0 +1,13 @@
+.box-media{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+@media (max-width:790px) {
+
+    body {
+        background-color: aquamarine;
+    }
+
+}

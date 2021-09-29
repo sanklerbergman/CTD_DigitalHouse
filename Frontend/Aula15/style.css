@@ -1,0 +1,57 @@
+h3::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    color: #3eb433;
+}
+
+input:focus {
+    background-color: black;
+}
+
+input:checked {
+    height: 30px;
+    width: 30px;
+    transition: .5s;
+}
+
+.inputdesabilitado input:disabled {
+    background-color: #ff0909;
+}
+
+p:nth-child(2) {
+    color: aqua;
+    font-size: large;
+}
+
+button:hover {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 35px;
+    width: 50%;
+    text-align: center;
+    transition: .5s;
+}
+
+/* unvisited link */
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: rgb(227, 246, 48);
+}
+
+/* selected link */
+
+a:active {
+    color: blue;
+}

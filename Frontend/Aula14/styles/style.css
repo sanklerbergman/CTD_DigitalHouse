@@ -50,10 +50,12 @@ form img {
 }
 
 .botaodepedido button {
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
     border-radius: 6px;
-    border-style: solid;
-
+    border: 0;
+    
+    
     transition: 0.3s;
 }
 
