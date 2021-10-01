@@ -1,0 +1,20 @@
+body{
+    overflow-x: hidden;
+}
+
+.main-menu{
+
+    width: 100vw;
+    height: 100vh;
+
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+}
