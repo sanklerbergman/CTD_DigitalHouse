@@ -11,7 +11,13 @@
 
 <body>
 
-    <form action="">
+    <div class="cabecalho">
+        <h1>Formulario de visitantes e estudantes</h1>
+    </div>
+
+
+    <div class="formulario-cadastro">
+        <form action="">
 
             <label for="">Nome</label>
             <input type="text">
@@ -27,22 +33,37 @@
                 <option value="nao">Não</option>
                 <option value="sim">Sim</option>
             </select>
-       
-            <label for="">Marque seus pontos de interesse na cidade</label>
-            <input type="checkbox" name="peixe" value="">
-            <label for="peixe">Rota do Peixe</label>
-   
+            
+            <div class="pontos-interesse">
+                <label for="">Marque seus pontos de interesse na cidade</label>
+                <input type="checkbox" name="peixe" value="">
+                <label for="peixe">Rota do Peixe</label>
+                <input type="checkbox" name="peixe" value="">
+                <label for="peixe">Cachoeiras</label>
+                <input type="checkbox" name="peixe" value="">
+                <label for="peixe">Pantanal</label>
+            </div>
+            
+            <div class="escolha-turista">
+                <label for="">Qual o motivo da sua visita?</label>
+                <input type="checkbox" name="estudante" value="">
+                <label for="estudante">ESTUDANTE</label>
+                <input type="checkbox" name="turista" value="" checked>
+                <label for="turista">TURISTA</label>
+                <input type="checkbox" name="residente" value="">
+                <label for="residente">RESIDENTE</label>
+            </div>
+            
+            <div class="botoes">
 
-            <input type="checkbox" name="estudante" value="">
-            <label for="estudante">ESTUDANTE</label>
-            <input type="checkbox" name="turista" value="" checked>
-            <label for="turista">TURISTA</label>
-            <input type="checkbox" name="residente" value="">
-            <label for="residente">RESIDENTE</label>
+                <button name="reset" type="reset" class="botao-reset">Resetar</button>
+                <button name="send" class="botao-send">Enviar</button>
 
-        <button name="reset" class="botao-reset">Resetar</button>
-        <button name="send" class="botao-send">Enviar</button>
-    </form>
+            </div>
+
+        </form>
+    </div>
+    
 
 </body>
 
