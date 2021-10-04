@@ -1,0 +1,12 @@
+.imagem-celular img{
+    max-width: 100vw;
+}
+
+#lidobootstrap{
+    list-style-type: none;
+    
+}
+
+.nav-corescura{
+    color: black;
+}
