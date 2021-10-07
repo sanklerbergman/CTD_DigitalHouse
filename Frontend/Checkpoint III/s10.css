@@ -20,11 +20,8 @@ body{
 /* -> o menu dropdown para navegar nas outras paginas somem abaixo desse 975px */
 
 .descricoes-galaxy-z-fold{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: 200px;
+    margin-left: 20px;
     align-content: center;
-    margin: 20px 0 20px 10px;
 }
 
 .descricoes-galaxy-z-fold p{
@@ -49,18 +46,18 @@ body{
   
   #texto {
     position: absolute;
-    font-size: 32px;
-    left: 5%;
+    font-size: 45px;
+    left: 50%;
     top: 200px;
-    color: black;
+    color: white;
   }
 
   @media (max-width:1000px) {
 
     #texto {     
-        top: 0;
-        left: 0;
-        font-size: 25px;
+        top: 150px;
+        left: 20px;
+        font-size: 35px;
     }
 
 }
@@ -74,9 +71,9 @@ body{
 @media (min-width: 1800px){
     #texto{
         
-        left: -150px;
+        left: 50%;
         top: 300px;
-        font-size: 55px;
+        font-size: 80px;
     }
 }
 
